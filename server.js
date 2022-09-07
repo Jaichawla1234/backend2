@@ -20,7 +20,7 @@ app.use('/api/messenger',authRouter);
 app.use('/api/messenger',messengerRoute);
 
 app.use(cors({
-  origin : [ 'https://chat-application22222.netlify.app' , 'https://chat-app-it-b-c-2.herokuapp.com/' ],
+  origin : [ 'https://chat-application22222.netlify.app' , 'https://chat-app-it-b-c-2.herokuapp.com' ],
   methods:["GET" , "POST" , "PUT", "DELETE"],
   credentials: true
 }));
