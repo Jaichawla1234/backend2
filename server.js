@@ -16,8 +16,8 @@ dotenv.config({
 app.use(bodyParser.json());
 app.use(cookieParser());
 
-app.use('/api/messenger',authRouter);
-app.use('/api/messenger',messengerRoute);
+app.use('https://chat-app-it-b-c-2.herokuapp.com/api/messenger',authRouter);
+app.use('https://chat-app-it-b-c-2.herokuapp.com/api/messenger',messengerRoute);
 
 app.use(cors({
   origin : [ 'https://chat-application22222.netlify.app' , 'https://chat-app-it-b-c-2.herokuapp.com' ],
